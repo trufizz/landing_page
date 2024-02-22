@@ -1,6 +1,6 @@
 * {
     border: 1px solid red;
-}
+} 
 
 body {
     font-family: Roboto, 'Open Sans', sans-serif;
@@ -21,11 +21,23 @@ a {
     font-size: 18px;
 }
 
+button, button:hover, button:active, button:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
     padding: 8px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 750px;
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: space-between;
 }
 
 .right-links {
@@ -35,36 +47,54 @@ a {
     gap: 16px;
 }
 
-.signup {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    text-align: center;
-    border-radius: 6px;
-}
-
 .main {
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 0;
 }
 
 .left-main {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 88px 120px 88px 0px;
 }
 
 .header2 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    text-align: center;
 }
 
-.subtext {
+.sub-text {
     color: #E5E7EB;
     font-size: 18px;
+    max-width: 550px;
+}
+
+.signup {
+    background-color: #3882F6;
+    box-shadow: none;
+    color: #F9FAF8;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.left-main .signup {
+    padding: 8px 32px 8px 32px;
+    margin: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
 }
 
 .right-main {
     display: flex;
+    margin: 88px 0px 88px 120px;
     justify-content: flex-end;
 }
 
@@ -81,7 +111,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 52px;
+}
+
+.info {
+    max-width: 150px;
 }
 
 
@@ -104,6 +139,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sub-button .signup {
+    border: 1px solid white;
+    margin: 0;
+    padding: 8px 32px 8px 32px;
 }
 
 .footer {
