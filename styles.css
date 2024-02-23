@@ -98,47 +98,107 @@ button, button:hover, button:active, button:focus {
     justify-content: flex-end;
 }
 
+.information {
+    margin: 0px 200px 200px 200px;
+}
+
 .infotitle {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sub-info {
+    margin: 15px;
+    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: stretch;
+    text-align: center;
     gap: 52px;
 }
 
 .info {
     max-width: 150px;
+    font-size: 16px;
 }
 
+.info img {
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 .quote {
-    background-color: #E5E7EB;
+    margin: 200px;
 }
 
 .words {
     font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
+    font-style: 100;
+    font-weight: light;
     color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.refer {
+    font-size: 21px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 .sub-signup {
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
     background: #3882F6;
     width: 480px;
     border-radius: 4px;
-    padding: 8px;
+    padding: 20px 240px 20px 240px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ctac {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 0px;
+}
+
+.call {
+    color: #F9FAF8;
+    font-size: 21px;
+}
+
+.sub-call {
+    color: #E5E7EB;
+    font-size: 13px;
+}
+
+.sub-button {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .sub-button .signup {
